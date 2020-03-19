@@ -56,8 +56,8 @@ light_off = True
 sensor.set_touch_threshold(touch_threshold)
 sensor.set_release_threshold(release_threshold)
 
-bridgeip = '192.168.1.100'
-light = 'Hue color lamp 1'
+bridgeip = '123.456.7.890'
+light = 'Lamp N'
 
 bridge = Bridge(bridgeip)
 bridge.connect()
